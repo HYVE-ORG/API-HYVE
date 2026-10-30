@@ -1,0 +1,13 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "forma-beta",
+  "main": "worker.ts",
+  "compatibility_date": "2026-10-24",
+  "workers_dev": true,
+  "assets": {
+    "directory": "../../release/cloudflare/site",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api", "/api/*", "/socket.io", "/socket.io/*", "/downloads/installers/*"]
+  },
+  "observability": {"enabled": false}
+}

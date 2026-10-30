@@ -1,0 +1,17 @@
+node_modules
+.data
+dist
+dist-api
+dist-desktop
+release
+.npm-cache
+.release-keys
+.wrangler
+.dev.vars
+.dev.vars.*
+.git
+.env
+.env.*
+!.env.example
+.npmrc
+*.log
